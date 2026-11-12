@@ -530,7 +530,10 @@ def seed_database(db: Session) -> None:
         print("  PO line items already seeded.")
 
     # --- Generate CSV files ---
-    _write_csvs()
+    try:
+        _write_csvs()
+    except OSError:
+        pass
 
 
 def _write_csvs() -> None:

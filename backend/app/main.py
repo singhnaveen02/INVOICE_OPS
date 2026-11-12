@@ -1,11 +1,12 @@
 import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 
 from .config import settings
-from .database import engine, Base
+from .database import engine, Base, SessionLocal
 from . import models  # noqa: F401 - registers models
+from .models.vendor import Vendor
+from .utils.seed import seed_database
 from .routers import (
     invoices_router,
     vendors_router,
@@ -21,17 +22,30 @@ os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
 # Create tables
 Base.metadata.create_all(bind=engine)
 
+# Auto-seed initial demo vendors & POs on fresh cloud deployments (e.g. Render)
+_db = SessionLocal()
+try:
+    if _db.query(Vendor).count() == 0:
+        seed_database(_db)
+except Exception:
+    _db.rollback()
+finally:
+    _db.close()
+
 app = FastAPI(
     title="InvoiceOps API",
     description="Enterprise Accounts Payable Automation & Intelligent Invoice Processing System",
     version="1.0.0",
 )
 
-# CORS middleware
+# CORS middleware (supports Vercel frontend + local dev)
+cors_env = os.environ.get("CORS_ORIGINS", "*").strip()
+allow_origins = ["*"] if cors_env == "*" else [o.strip() for o in cors_env.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=allow_origins,
+    allow_credentials=False if allow_origins == ["*"] else True,
     allow_methods=["*"],
     allow_headers=["*"],
 )

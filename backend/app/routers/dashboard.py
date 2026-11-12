@@ -57,10 +57,11 @@ def get_invoice_trends(db: Session = Depends(get_db)) -> List[Dict[str, Any]]:
     # 30 day trends
     today = datetime.utcnow().date()
     start_date = today - timedelta(days=29)
+    start_dt = datetime.combine(start_date, datetime.min.time())
 
     invoices = (
         db.query(Invoice.created_at, Invoice.status, Invoice.grand_total)
-        .filter(Invoice.created_at >= start_date)
+        .filter(Invoice.created_at >= start_dt)
         .all()
     )
 

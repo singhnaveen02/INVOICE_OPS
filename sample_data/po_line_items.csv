@@ -1,56 +1,56 @@
 id,po_id,po_number,line_number,description,sku,quantity,unit_price,total_price,unit_of_measure
-30549fce-870e-4f6c-ad99-2ffa57a92275,po-2024-001,PO-2024-001,1,"Executive Desk (L-shape, walnut finish)",DESK-EXC-WN-001,5,1200.0,6000.0,EA
-10c1e94b-8840-4f9f-abb0-98cb74a3202a,po-2024-001,PO-2024-001,2,"Ergonomic Office Chair (mesh, adjustable)",CHAIR-ERG-MSH-002,10,450.0,4500.0,EA
-f0cf4e3f-f6d5-4a5c-9a00-88c82e77297a,po-2024-001,PO-2024-001,3,4-Drawer Filing Cabinet (letter size),CAB-FILE-4D-003,8,320.0,2560.0,EA
-5270ada8-fe48-4f27-9bd2-4dc204bc7f8c,po-2024-001,PO-2024-001,4,"Whiteboard (6ft x 4ft, magnetic)",WB-MAG-6X4-004,4,180.0,720.0,EA
-875370d4-3600-4a71-9c1a-522a75238c48,po-2024-002,PO-2024-002,1,Dell PowerEdge R750 Server,SRV-DELL-R750-001,4,6500.0,26000.0,EA
-42ae61ad-0498-4172-900e-03e742bdf534,po-2024-002,PO-2024-002,2,32GB DDR4 ECC RAM Module,RAM-DDR4-32G-002,32,180.0,5760.0,EA
-185e0aa9-86da-4046-87b8-77734cb984d5,po-2024-002,PO-2024-002,3,2TB NVMe SSD (data center grade),SSD-NVM-2T-003,16,320.0,5120.0,EA
-b37b4e04-a886-4f1f-bc30-35c9c18881c8,po-2024-002,PO-2024-002,4,10GbE Network Interface Card,NIC-10G-PCIe-004,8,150.0,1200.0,EA
-86c74747-056f-404f-ad84-3b6e6d6e29b4,po-2024-002,PO-2024-002,5,Server Rack Installation Labor,SVC-RACK-INST-005,1,2000.0,2000.0,HR
-24656535-e350-4a6e-980e-5eaf2af156fc,po-2024-003,PO-2024-003,1,LTL Freight — Midwest Region (per pallet),FRGT-LTL-MW-001,50,180.0,9000.0,PLT
-410af7c0-fb75-4b90-8454-f398020ea7a5,po-2024-003,PO-2024-003,2,Expedited Ground Shipping — Priority,SHIP-EXP-GND-002,20,75.0,1500.0,SHP
-feaf3174-15d6-41c2-995b-1526217d6c04,po-2024-003,PO-2024-003,3,Warehousing and Storage (monthly),WHSE-STG-MO-003,3,2000.0,6000.0,MO
-8cea3fcd-44a0-4eb9-babb-936298722bc0,po-2024-004,PO-2024-004,1,A4 Copy Paper (500 sheets/ream),PPR-A4-500-001,100,8.5,850.0,RM
-eef0f956-4d3f-499a-8aa2-f24bc27c5fd4,po-2024-004,PO-2024-004,2,"Ballpoint Pens (box of 50, blue)",PEN-BP-BX50-002,20,12.0,240.0,BX
-a50a45d1-4157-471e-89f3-2f7ce348d7de,po-2024-004,PO-2024-004,3,"Stapler (heavy duty, 60-sheet)",STG-HD-60-003,10,25.0,250.0,EA
-ae4bf8f1-897f-4c3f-ae89-a14d9b7c13c0,po-2024-004,PO-2024-004,4,"Sticky Notes (3x3, 12-pack)",STK-3X3-12P-004,30,9.0,270.0,PK
-94eb077a-5233-4a22-a39c-a891e1035dcb,po-2024-004,PO-2024-004,5,"Whiteboard Markers (assorted, 8-pack)",MRK-WB-8PK-005,15,14.0,210.0,PK
-365cd570-fe36-4603-96f1-c54236b54d71,po-2024-005,PO-2024-005,1,Cloud Compute — 32 vCPU Reserved Instance (annual),CLD-CPU-32-ANN-001,1,18000.0,18000.0,LIC
-eafdffcd-19b2-4283-98f8-d610bc33c262,po-2024-005,PO-2024-005,2,"Managed Kubernetes (10-node cluster, annual)",CLD-K8S-10N-ANN-002,1,12000.0,12000.0,LIC
-9567565b-735b-4c50-b969-f92aa2ab84ac,po-2024-005,PO-2024-005,3,Object Storage — 50TB (annual),CLD-OBJ-50T-ANN-003,1,6000.0,6000.0,LIC
-fdbfb0bb-c724-4064-8d80-295e69eb9a93,po-2024-006,PO-2024-006,1,Safety Goggles (ANSI Z87.1 rated),SFTY-GOG-Z87-001,50,18.0,900.0,EA
-f96e4bcb-3ab0-40b7-af38-43df4b1648a6,po-2024-006,PO-2024-006,2,"Lab Coat (medium, autoclave-safe)",COAT-LAB-MED-002,30,45.0,1350.0,EA
-451e0dd3-7a4a-4c5c-8f29-f24f6d107c0b,po-2024-006,PO-2024-006,3,"Digital Caliper (0–150mm, ±0.02mm)",TOOL-CAL-150-003,10,85.0,850.0,EA
-1eb3cc6a-1b0c-4b53-95ed-cdea6ed04d50,po-2024-006,PO-2024-006,4,"Fume Hood (benchtop, 36-inch)",EQUIP-FUME-36-004,2,2250.0,4500.0,EA
-51ee8011-e922-4e9e-9d23-e1ddf8a9f4cc,po-2024-007,PO-2024-007,1,"M6 x 20mm Hex Bolts (grade 8.8, pack of 500)",BOLT-M6X20-G8-001,10,32.0,320.0,PK
-69d879f3-7d0f-43ca-be90-a3c51ef10e4c,po-2024-007,PO-2024-007,2,Bearing — Deep Groove 6205-2RS,BEAR-6205-2RS-002,50,12.5,625.0,EA
-96fccca6-47a0-49cf-861b-19d8e051055d,po-2024-007,PO-2024-007,3,"Timing Belt (HTD 5M, 500mm)",BELT-HTD5M-500-003,20,22.0,440.0,EA
-336ad6f1-4e7f-4b1d-be91-87f396ec1032,po-2024-007,PO-2024-007,4,"V-Belt (A-Section, A56)",BELT-VA56-004,15,18.0,270.0,EA
-0f214bf0-d213-4a10-948f-795b5f9349e7,po-2024-008,PO-2024-008,1,Data Assessment and Schema Analysis,SVC-DATA-ASSESS-001,40,150.0,6000.0,HR
-c9542d63-daa2-4b62-9909-e32fb3c0962e,po-2024-008,PO-2024-008,2,ETL Pipeline Development,SVC-ETL-DEV-002,80,175.0,14000.0,HR
-47347a7c-9705-483b-8150-4ae4a4c2affb,po-2024-008,PO-2024-008,3,Data Quality & Validation Framework,SVC-DQ-FRMWK-003,30,160.0,4800.0,HR
-7042e337-ae56-4c52-98f8-6f6001e1cc7a,po-2024-009,PO-2024-009,1,Cisco Catalyst 2960-X 48-Port Switch,NET-CSC-2960X-001,4,1050.0,4200.0,EA
-529ed482-db98-4f6d-96e4-afabdacc4faf,po-2024-009,PO-2024-009,2,Cat6A Ethernet Cable (1000ft spool),CBL-CAT6A-1KFT-002,2,320.0,640.0,SPL
-de668059-1d52-47d6-ac32-7d9ec8d44222,po-2024-009,PO-2024-009,3,"19-inch Patch Panel (24-port, Cat6A)",NET-PATCH-24-003,4,95.0,380.0,EA
-91c3b7a6-ed22-4664-aaa4-7384cc91d4bb,po-2024-010,PO-2024-010,1,Air Freight — Asia-Pacific (per kg rate),FRGT-AIR-APAC-001,500,8.5,4250.0,KG
-b87bf011-7685-4151-9d20-3a8cb21d72f5,po-2024-010,PO-2024-010,2,Customs Brokerage Fee (per shipment),SVC-CUST-BRK-002,10,230.0,2300.0,SHP
-733d1fba-ceb7-40fa-8ca8-db4a6e48969c,po-2024-011,PO-2024-011,1,CI/CD Platform — Jenkins Enterprise (annual),SFT-CICD-JNK-ANN-001,1,5400.0,5400.0,LIC
-fa3b1a72-5b0e-45ee-83ce-9ca14609c22a,po-2024-011,PO-2024-011,2,"Observability Stack — Datadog (annual, 20 hosts)",SFT-OBS-DD-20H-002,1,7200.0,7200.0,LIC
-c0e0b415-c582-4168-ae2a-583b0a61622b,po-2024-011,PO-2024-011,3,Incident Management — PagerDuty Business (annual),SFT-INC-PD-BIZ-003,1,1800.0,1800.0,LIC
-8b6c7aad-9175-4d54-8c47-64946f38fa6a,po-2024-012,PO-2024-012,1,Ground Coffee Beans — Colombian (5lb bag),CAFE-COLO-5LB-001,10,55.0,550.0,BG
-4a48439f-1544-4cf2-8f9e-f6330d810fc6,po-2024-012,PO-2024-012,2,"Paper Cups (12oz, case of 1000)",CUP-12OZ-1K-002,5,48.0,240.0,CS
-194e8558-264d-4d3b-a61a-85fd8f7568ed,po-2024-012,PO-2024-012,3,Dish Soap and Cleaning Supplies Kit,CLN-DISH-KIT-003,6,32.0,192.0,KT
-85066ae3-4e5b-4227-b289-0d778930a3cc,po-2024-013,PO-2024-013,1,CNC Turning Insert CNMG 120408 (box of 10),CNC-INS-CNMG-001,20,185.0,3700.0,BX
-cfe09e5c-22f8-44ae-9be4-bd114a8d13a9,po-2024-013,PO-2024-013,2,End Mill — 10mm 4-Flute Carbide,CNC-EM-10MM-4F-002,30,48.0,1440.0,EA
-3ed40eee-597d-4152-b67d-350218360d0d,po-2024-013,PO-2024-013,3,"Collet Chuck ER32 (C40, 100L)",CNC-COL-ER32-003,5,220.0,1100.0,EA
-83ffdebe-f6f7-48f2-b825-ce39c9d6ec60,po-2024-013,PO-2024-013,4,CNC Machine Coolant (20L drum),CNC-CLT-20L-004,10,95.0,950.0,DR
-fdd1f416-3950-453c-a235-20020b33e3c9,po-2024-014,PO-2024-014,1,Data Warehouse Architecture Design,SVC-DWH-ARCH-001,60,220.0,13200.0,HR
-8f5b71ec-44e6-4c17-beae-d7a096193982,po-2024-014,PO-2024-014,2,BigQuery Setup and Optimization,SVC-BQ-SETUP-002,80,195.0,15600.0,HR
-cdad1578-cc7a-45ce-bf42-ef3a01a41211,po-2024-014,PO-2024-014,3,dbt Model Development (100+ models),SVC-DBT-DEV-003,120,185.0,22200.0,HR
-add4f966-9c00-4fc5-b1cd-db5b31f8b2e2,po-2024-014,PO-2024-014,4,Looker Dashboard Development (10 dashboards),SVC-LKR-DASH-004,40,175.0,7000.0,HR
-b9a0e8d5-7959-4da4-ac15-1905b9dcbe19,po-2024-014,PO-2024-014,5,Training and Knowledge Transfer,SVC-KT-TRAIN-005,20,150.0,3000.0,HR
-f51afdeb-896f-469e-8f88-4878ccbd3a1e,po-2024-015,PO-2024-015,1,"Hard Hat (ABS, Class E, yellow)",PPE-HAT-CLE-001,25,32.0,800.0,EA
-448b3706-7ead-4773-ac32-a7bd2ab88047,po-2024-015,PO-2024-015,2,"Safety Vest (class 2, hi-vis orange)",PPE-VEST-C2-002,25,18.0,450.0,EA
-b6f94d3b-e28d-423e-803c-51d6a3d01f3e,po-2024-015,PO-2024-015,3,Steel-Toe Work Boots (size 9–13 assorted),PPE-BOOT-ST-003,20,95.0,1900.0,PR
-96c0ed0f-df54-4292-80f2-7802e8f0ae6a,po-2024-015,PO-2024-015,4,"Cut-Resistant Gloves (level D, medium)",PPE-GLOVE-CRD-004,50,14.0,700.0,PR
+a434fb27-f00c-4630-a96b-574a40e5605f,po-2024-001,PO-2024-001,1,"Executive Desk (L-shape, walnut finish)",DESK-EXC-WN-001,5,1200.0,6000.0,EA
+c0665329-e145-44dd-b22a-e06d8a563987,po-2024-001,PO-2024-001,2,"Ergonomic Office Chair (mesh, adjustable)",CHAIR-ERG-MSH-002,10,450.0,4500.0,EA
+2a17a5db-6e03-4a0e-9335-baa78651a1e4,po-2024-001,PO-2024-001,3,4-Drawer Filing Cabinet (letter size),CAB-FILE-4D-003,8,320.0,2560.0,EA
+eebf25b6-a0ed-4287-960d-2bf54ae36066,po-2024-001,PO-2024-001,4,"Whiteboard (6ft x 4ft, magnetic)",WB-MAG-6X4-004,4,180.0,720.0,EA
+6c607da4-cf09-40bd-b2d9-46954c41cc6b,po-2024-002,PO-2024-002,1,Dell PowerEdge R750 Server,SRV-DELL-R750-001,4,6500.0,26000.0,EA
+8e7fef8f-b0c3-43fa-aa9f-775c959daa16,po-2024-002,PO-2024-002,2,32GB DDR4 ECC RAM Module,RAM-DDR4-32G-002,32,180.0,5760.0,EA
+010f53a9-c6b4-40fe-ae30-9a547f9542e0,po-2024-002,PO-2024-002,3,2TB NVMe SSD (data center grade),SSD-NVM-2T-003,16,320.0,5120.0,EA
+8bab23f5-8415-465b-b935-298ce3c4d73b,po-2024-002,PO-2024-002,4,10GbE Network Interface Card,NIC-10G-PCIe-004,8,150.0,1200.0,EA
+45385db1-b028-464d-b628-cb7ec0f43ff6,po-2024-002,PO-2024-002,5,Server Rack Installation Labor,SVC-RACK-INST-005,1,2000.0,2000.0,HR
+0ac7ef90-3416-45d1-9ea1-88dd84502210,po-2024-003,PO-2024-003,1,LTL Freight — Midwest Region (per pallet),FRGT-LTL-MW-001,50,180.0,9000.0,PLT
+7a2afa8f-0bc0-46f9-8939-b499069a41cc,po-2024-003,PO-2024-003,2,Expedited Ground Shipping — Priority,SHIP-EXP-GND-002,20,75.0,1500.0,SHP
+38a0f73b-ca62-46af-b9b8-6ba4db1d5b04,po-2024-003,PO-2024-003,3,Warehousing and Storage (monthly),WHSE-STG-MO-003,3,2000.0,6000.0,MO
+dc98ece4-9567-4265-8ae7-05791ae4f2e0,po-2024-004,PO-2024-004,1,A4 Copy Paper (500 sheets/ream),PPR-A4-500-001,100,8.5,850.0,RM
+71c5ad49-674f-40f5-b9dd-b51eef0693d7,po-2024-004,PO-2024-004,2,"Ballpoint Pens (box of 50, blue)",PEN-BP-BX50-002,20,12.0,240.0,BX
+94611d8c-225e-4daf-bc2f-48e1106dc108,po-2024-004,PO-2024-004,3,"Stapler (heavy duty, 60-sheet)",STG-HD-60-003,10,25.0,250.0,EA
+cc9e7746-36af-49eb-a251-6ae374a69a4b,po-2024-004,PO-2024-004,4,"Sticky Notes (3x3, 12-pack)",STK-3X3-12P-004,30,9.0,270.0,PK
+3b8b0bec-4030-478f-8eda-088686b17b02,po-2024-004,PO-2024-004,5,"Whiteboard Markers (assorted, 8-pack)",MRK-WB-8PK-005,15,14.0,210.0,PK
+9f6e29ef-e6f3-4d4f-8ed8-4e3d5234e371,po-2024-005,PO-2024-005,1,Cloud Compute — 32 vCPU Reserved Instance (annual),CLD-CPU-32-ANN-001,1,18000.0,18000.0,LIC
+d6c39af4-3374-4107-83ad-9a8c1f4e01b7,po-2024-005,PO-2024-005,2,"Managed Kubernetes (10-node cluster, annual)",CLD-K8S-10N-ANN-002,1,12000.0,12000.0,LIC
+f0fb9344-b550-4921-b69f-75665e2d1253,po-2024-005,PO-2024-005,3,Object Storage — 50TB (annual),CLD-OBJ-50T-ANN-003,1,6000.0,6000.0,LIC
+ecf49652-f9aa-44f0-889c-7fc8c0689f03,po-2024-006,PO-2024-006,1,Safety Goggles (ANSI Z87.1 rated),SFTY-GOG-Z87-001,50,18.0,900.0,EA
+ec220ce1-2e2f-4dee-ab90-a633508467c5,po-2024-006,PO-2024-006,2,"Lab Coat (medium, autoclave-safe)",COAT-LAB-MED-002,30,45.0,1350.0,EA
+53a44acf-434b-48b5-8ece-3bafec9581f5,po-2024-006,PO-2024-006,3,"Digital Caliper (0–150mm, ±0.02mm)",TOOL-CAL-150-003,10,85.0,850.0,EA
+b3b19755-70e6-41ff-84d4-487d84b5d429,po-2024-006,PO-2024-006,4,"Fume Hood (benchtop, 36-inch)",EQUIP-FUME-36-004,2,2250.0,4500.0,EA
+c5be7e00-c570-485a-a023-50afcc509c1b,po-2024-007,PO-2024-007,1,"M6 x 20mm Hex Bolts (grade 8.8, pack of 500)",BOLT-M6X20-G8-001,10,32.0,320.0,PK
+acf16cc7-c7fb-4747-8a2f-94a095469476,po-2024-007,PO-2024-007,2,Bearing — Deep Groove 6205-2RS,BEAR-6205-2RS-002,50,12.5,625.0,EA
+24e8ce88-4081-48a2-a6c9-916ddd911d44,po-2024-007,PO-2024-007,3,"Timing Belt (HTD 5M, 500mm)",BELT-HTD5M-500-003,20,22.0,440.0,EA
+f771b2e6-5d75-4cea-8fec-bf2cda66ffae,po-2024-007,PO-2024-007,4,"V-Belt (A-Section, A56)",BELT-VA56-004,15,18.0,270.0,EA
+f3416ac6-b1b1-4603-8048-9afc0355df28,po-2024-008,PO-2024-008,1,Data Assessment and Schema Analysis,SVC-DATA-ASSESS-001,40,150.0,6000.0,HR
+c3ea946c-0b0c-419c-8dde-707b541ad176,po-2024-008,PO-2024-008,2,ETL Pipeline Development,SVC-ETL-DEV-002,80,175.0,14000.0,HR
+78d8c9e6-f38b-4c07-a3e4-f75eb820023a,po-2024-008,PO-2024-008,3,Data Quality & Validation Framework,SVC-DQ-FRMWK-003,30,160.0,4800.0,HR
+808d1f06-42a7-44e7-84ab-5144e71caeb8,po-2024-009,PO-2024-009,1,Cisco Catalyst 2960-X 48-Port Switch,NET-CSC-2960X-001,4,1050.0,4200.0,EA
+f3a9aa5e-60ce-4eae-b6a3-b0556d47adc8,po-2024-009,PO-2024-009,2,Cat6A Ethernet Cable (1000ft spool),CBL-CAT6A-1KFT-002,2,320.0,640.0,SPL
+049da508-bb4a-4ea7-a8cb-406f8fbffdcd,po-2024-009,PO-2024-009,3,"19-inch Patch Panel (24-port, Cat6A)",NET-PATCH-24-003,4,95.0,380.0,EA
+946b29d2-1e3a-4ee4-96a3-efeabf23ed64,po-2024-010,PO-2024-010,1,Air Freight — Asia-Pacific (per kg rate),FRGT-AIR-APAC-001,500,8.5,4250.0,KG
+456bbc71-6259-4bc6-8e19-491f6729a94d,po-2024-010,PO-2024-010,2,Customs Brokerage Fee (per shipment),SVC-CUST-BRK-002,10,230.0,2300.0,SHP
+d27a26d8-cae9-4d52-ac5a-282cd4a4cbfc,po-2024-011,PO-2024-011,1,CI/CD Platform — Jenkins Enterprise (annual),SFT-CICD-JNK-ANN-001,1,5400.0,5400.0,LIC
+5b7bc0ee-a601-4752-bfd3-7beeb70e603f,po-2024-011,PO-2024-011,2,"Observability Stack — Datadog (annual, 20 hosts)",SFT-OBS-DD-20H-002,1,7200.0,7200.0,LIC
+1285ba53-b5df-4cbf-81a6-32d5fe7a312f,po-2024-011,PO-2024-011,3,Incident Management — PagerDuty Business (annual),SFT-INC-PD-BIZ-003,1,1800.0,1800.0,LIC
+91dd9ea1-7b03-4d87-9268-24a3c1438d62,po-2024-012,PO-2024-012,1,Ground Coffee Beans — Colombian (5lb bag),CAFE-COLO-5LB-001,10,55.0,550.0,BG
+1cb50322-ac83-4fc4-9bdc-bc6e890d4897,po-2024-012,PO-2024-012,2,"Paper Cups (12oz, case of 1000)",CUP-12OZ-1K-002,5,48.0,240.0,CS
+da25fb73-1766-4882-8860-87e8e1052fc3,po-2024-012,PO-2024-012,3,Dish Soap and Cleaning Supplies Kit,CLN-DISH-KIT-003,6,32.0,192.0,KT
+f9e05002-0f85-4f09-b2d7-e1fc5a0af21d,po-2024-013,PO-2024-013,1,CNC Turning Insert CNMG 120408 (box of 10),CNC-INS-CNMG-001,20,185.0,3700.0,BX
+f7bec7ae-086f-465d-9416-f04bd6272fe1,po-2024-013,PO-2024-013,2,End Mill — 10mm 4-Flute Carbide,CNC-EM-10MM-4F-002,30,48.0,1440.0,EA
+73ff137b-359e-4b63-b201-018a01002803,po-2024-013,PO-2024-013,3,"Collet Chuck ER32 (C40, 100L)",CNC-COL-ER32-003,5,220.0,1100.0,EA
+bf36972f-cdea-414e-b301-bf4494da15ed,po-2024-013,PO-2024-013,4,CNC Machine Coolant (20L drum),CNC-CLT-20L-004,10,95.0,950.0,DR
+cadf5e21-0d98-43b9-83f6-c9e66ccad881,po-2024-014,PO-2024-014,1,Data Warehouse Architecture Design,SVC-DWH-ARCH-001,60,220.0,13200.0,HR
+02e28e5e-008d-47f8-af49-659702e5c55a,po-2024-014,PO-2024-014,2,BigQuery Setup and Optimization,SVC-BQ-SETUP-002,80,195.0,15600.0,HR
+14cde97c-ebfe-40e1-aa3e-dfd21d23ae39,po-2024-014,PO-2024-014,3,dbt Model Development (100+ models),SVC-DBT-DEV-003,120,185.0,22200.0,HR
+32bb6320-47d1-4a9e-935c-b90d1e7b3555,po-2024-014,PO-2024-014,4,Looker Dashboard Development (10 dashboards),SVC-LKR-DASH-004,40,175.0,7000.0,HR
+1664ec30-bf26-44da-b328-ec20bf6cf473,po-2024-014,PO-2024-014,5,Training and Knowledge Transfer,SVC-KT-TRAIN-005,20,150.0,3000.0,HR
+9c11d6ed-a77e-4495-b465-2c426b3ee7c3,po-2024-015,PO-2024-015,1,"Hard Hat (ABS, Class E, yellow)",PPE-HAT-CLE-001,25,32.0,800.0,EA
+f64ebf9e-addd-4691-a199-6f96b20dfa3c,po-2024-015,PO-2024-015,2,"Safety Vest (class 2, hi-vis orange)",PPE-VEST-C2-002,25,18.0,450.0,EA
+896fdc5b-68cd-4768-bfa8-a38564ecb6ab,po-2024-015,PO-2024-015,3,Steel-Toe Work Boots (size 9–13 assorted),PPE-BOOT-ST-003,20,95.0,1900.0,PR
+6f48a314-bb40-4dcf-a29e-2990c5a22752,po-2024-015,PO-2024-015,4,"Cut-Resistant Gloves (level D, medium)",PPE-GLOVE-CRD-004,50,14.0,700.0,PR

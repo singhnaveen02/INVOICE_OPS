@@ -74,4 +74,7 @@ async def stream_invoice_stages(invoice_id: str, request: Request):
             await asyncio.sleep(0.05)
             retries += 1
 
-    return EventSourceResponse(event_generator())
+    return EventSourceResponse(
+        event_generator(),
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+    )
