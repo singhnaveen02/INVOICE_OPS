@@ -1,10 +1,25 @@
+import os
+import tempfile
 from pydantic_settings import BaseSettings
 from typing import List
 
 
+def _default_db_url() -> str:
+    if os.access(".", os.W_OK):
+        return "sqlite:///./invoiceops.db"
+    tmp_db = os.path.join(tempfile.gettempdir(), "invoiceops.db").replace("\\", "/")
+    return f"sqlite:///{tmp_db}"
+
+
+def _default_upload_dir() -> str:
+    if os.access(".", os.W_OK):
+        return "uploads"
+    return os.path.join(tempfile.gettempdir(), "invoiceops_uploads")
+
+
 class Settings(BaseSettings):
-    DATABASE_URL: str = "sqlite:///./invoiceops.db"
-    UPLOAD_DIR: str = "uploads"
+    DATABASE_URL: str = _default_db_url()
+    UPLOAD_DIR: str = _default_upload_dir()
     MAX_FILE_SIZE_MB: int = 50
     ALLOWED_EXTENSIONS: List[str] = [".pdf"]
     PRICE_TOLERANCE_PERCENT: float = 2.0
