@@ -811,14 +811,15 @@ def get_invoice_detail(invoice_id: str, db: Session = Depends(get_db)) -> Dict[s
 
 
 @router.get("/{invoice_id}/pdf")
-def get_invoice_pdf(invoice_id: str, db: Session = Depends(get_db)):
+def get_invoice_pdf(invoice_id: str, download: bool = False, db: Session = Depends(get_db)):
     invoice = db.query(Invoice).filter(Invoice.id == invoice_id).first()
     if not invoice or not invoice.file_path or not os.path.exists(invoice.file_path):
         raise HTTPException(status_code=404, detail="PDF file not found for this invoice")
     return FileResponse(
         invoice.file_path,
         media_type="application/pdf",
-        filename=invoice.original_filename,
+        filename=invoice.original_filename or f"invoice_{invoice_id}.pdf",
+        content_disposition_type="attachment" if download else "inline",
     )
 
 

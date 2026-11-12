@@ -11,6 +11,7 @@ import {
   ShieldAlert,
   FileText,
   RotateCcw,
+  ExternalLink,
 } from 'lucide-react';
 import { api } from '../api/client';
 import ValidationChecklist from '../components/ValidationChecklist';
@@ -192,15 +193,28 @@ export default function ReviewDetail() {
         {/* Left Column (5 cols): Original Document & Extracted Context */}
         <div className="lg:col-span-5 space-y-6">
           <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-sm">
-            <span className="text-xs font-bold text-slate-700 uppercase tracking-wider block mb-3">
-              Source PDF Preview
-            </span>
+            <div className="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+              <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">
+                Source PDF Preview
+              </span>
+              {invoice.id && (
+                <a
+                  href={api.getInvoicePdfUrl(invoice.id)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xs text-sky-600 hover:text-sky-700 font-semibold flex items-center gap-1 hover:underline"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  Open in New Tab
+                </a>
+              )}
+            </div>
             {invoice.id ? (
-              <div className="w-full h-[380px] bg-slate-100 rounded-lg overflow-hidden border border-slate-200">
+              <div className="w-full h-[450px] bg-slate-100 rounded-lg overflow-hidden border border-slate-200">
                 <iframe
-                  src={api.getInvoicePdfUrl(invoice.id)}
+                  src={`${api.getInvoicePdfUrl(invoice.id)}#toolbar=1&navpanes=0`}
                   title="Source PDF"
-                  className="w-full h-full"
+                  className="w-full h-full border-0"
                 />
               </div>
             ) : null}

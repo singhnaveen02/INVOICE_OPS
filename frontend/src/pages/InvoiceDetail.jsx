@@ -13,6 +13,7 @@ import {
   CheckCircle2,
   XCircle,
   FileSearch,
+  ExternalLink,
 } from 'lucide-react';
 import { api } from '../api/client';
 import StatusBadge from '../components/StatusBadge';
@@ -75,7 +76,7 @@ export default function InvoiceDetail() {
         <div className="flex items-center gap-2">
           {invoice.file_path && (
             <a
-              href={api.getInvoicePdfUrl(invoice.id)}
+              href={api.getInvoicePdfUrl(invoice.id, true)}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 text-xs font-semibold px-3.5 py-2 rounded-lg shadow-sm transition-colors"
@@ -141,17 +142,30 @@ export default function InvoiceDetail() {
                 <FileText className="w-4 h-4 text-sky-600" />
                 Original Document View
               </span>
-              <span className="text-xs text-slate-400 font-mono">
-                {invoice.file_hash ? `${invoice.file_hash.slice(0, 16)}...` : 'Manual Entry'}
-              </span>
+              <div className="flex items-center gap-3">
+                {invoice.file_path && (
+                  <a
+                    href={api.getInvoicePdfUrl(invoice.id)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-sky-600 hover:text-sky-700 font-semibold flex items-center gap-1 hover:underline"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    Open in New Tab
+                  </a>
+                )}
+                <span className="text-xs text-slate-400 font-mono">
+                  {invoice.file_hash ? `${invoice.file_hash.slice(0, 16)}...` : 'Manual Entry'}
+                </span>
+              </div>
             </div>
 
             {invoice.file_path ? (
-              <div className="w-full h-[450px] bg-slate-100 rounded-lg overflow-hidden border border-slate-200">
+              <div className="w-full h-[520px] bg-slate-100 rounded-lg overflow-hidden border border-slate-200">
                 <iframe
-                  src={api.getInvoicePdfUrl(invoice.id)}
+                  src={`${api.getInvoicePdfUrl(invoice.id)}#toolbar=1&navpanes=0`}
                   title="Invoice PDF"
-                  className="w-full h-full"
+                  className="w-full h-full border-0"
                 />
               </div>
             ) : (

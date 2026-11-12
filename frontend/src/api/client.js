@@ -30,7 +30,8 @@ export const api = {
   listInvoices: (params) => client.get('/invoices/', { params }),
   getInvoice: (id) => client.get(`/invoices/${id}`),
   deleteInvoice: (id) => client.delete(`/invoices/${id}`),
-  getInvoicePdfUrl: (id) => `${API_BASE}/invoices/${id}/pdf`,
+  getInvoicePdfUrl: (id, download = false) =>
+    `${API_BASE}/invoices/${id}/pdf${download ? '?download=true' : ''}`,
   getEventsUrl: (id) => `${API_BASE}/events/invoice/${id}`,
   exportInvoicesUrl: (params = {}) => {
     const qs = new URLSearchParams(params).toString();
