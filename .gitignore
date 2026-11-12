@@ -1,0 +1,32 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+.env
+backend/uploads/
+uploads/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,16 @@
+id,po_number,vendor_id,vendor_name,status,currency,total_amount,utilized_amount,issue_date,expiry_date,payment_terms,description
+po-2024-001,PO-2024-001,v-acme-0001,Acme Corporation,OPEN,USD,25000.0,7500.0,2024-01-10,2024-12-31,Net 30,Annual office furniture and fixtures supply
+po-2024-002,PO-2024-002,v-tech-0002,TechSupplies Ltd,PARTIAL,USD,48000.0,32000.0,2024-01-15,2024-12-31,Net 60,Server hardware refresh — Phase 1
+po-2024-003,PO-2024-003,v-glob-0003,Global Logistics Inc,OPEN,USD,15000.0,0.0,2024-02-01,2024-12-31,Net 30,Q1-Q2 domestic freight services
+po-2024-004,PO-2024-004,v-ofce-0004,Office Essentials Co,CLOSED,USD,3500.0,3500.0,2024-01-20,2024-03-20,Net 15,Q1 office stationery and consumables
+po-2024-005,PO-2024-005,v-clou-0005,CloudServices Pro,OPEN,USD,36000.0,9000.0,2024-01-01,2024-12-31,Net 30,Annual cloud infrastructure subscription
+po-2024-006,PO-2024-006,v-acme-0001,Acme Corporation,PARTIAL,USD,12000.0,4800.0,2024-02-15,2024-08-15,Net 30,Laboratory equipment and safety gear
+po-2024-007,PO-2024-007,v-qkpt-0007,QuickParts Inc,OPEN,USD,8500.0,0.0,2024-03-01,2024-09-01,Net 30,Assembly line spare parts — batch order
+po-2024-008,PO-2024-008,v-data-0008,DataSystems LLC,OPEN,USD,22000.0,11000.0,2024-02-20,2024-08-20,Net 60,Data migration and ETL services — Phase 2
+po-2024-009,PO-2024-009,v-tech-0002,TechSupplies Ltd,CLOSED,USD,6200.0,6200.0,2024-01-25,2024-02-28,Net 15,Networking switches and cabling
+po-2024-010,PO-2024-010,v-glob-0003,Global Logistics Inc,OPEN,USD,9800.0,2450.0,2024-03-10,2024-09-10,Net 30,International shipping — Asia-Pacific routes
+po-2024-011,PO-2024-011,v-clou-0005,CloudServices Pro,OPEN,USD,14400.0,3600.0,2024-03-01,2024-12-31,Net 30,DevOps tooling and monitoring platform
+po-2024-012,PO-2024-012,v-ofce-0004,Office Essentials Co,OPEN,USD,2100.0,700.0,2024-03-15,2024-06-15,Net 15,Q2 breakroom supplies and coffee station
+po-2024-013,PO-2024-013,v-qkpt-0007,QuickParts Inc,PARTIAL,USD,18750.0,6250.0,2024-02-10,2024-08-10,Net 30,CNC machine parts and tooling inserts
+po-2024-014,PO-2024-014,v-data-0008,DataSystems LLC,OPEN,USD,50000.0,10000.0,2024-01-05,2025-01-05,Net 60,Enterprise data warehouse build-out — 12-month engagement
+po-2024-015,PO-2024-015,v-acme-0001,Acme Corporation,OPEN,USD,5500.0,1100.0,2024-03-20,2024-09-20,Net 30,Safety equipment and PPE for factory floor

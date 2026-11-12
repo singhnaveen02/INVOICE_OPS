@@ -1,0 +1,11 @@
+id,name,gstin,tax_id,email,phone,address,country,approval_status
+v-acme-0001,Acme Corporation,22AAAAA0000A1Z5,EIN-12-3456789,billing@acmecorp.com,+1-800-555-0101,"1 Acme Plaza, Phoenix, AZ 85001, USA",US,APPROVED
+v-tech-0002,TechSupplies Ltd,,EIN-98-7654321,accounts@techsupplies.co.uk,+44-20-7946-0123,"42 Silicon Road, London, EC1A 1BB, UK",GB,APPROVED
+v-glob-0003,Global Logistics Inc,,EIN-55-4433221,invoices@globallogistics.com,+1-312-555-0200,"2500 Freight Blvd, Chicago, IL 60601, USA",US,APPROVED
+v-ofce-0004,Office Essentials Co,,EIN-77-1122334,billing@officeessentials.com,+1-415-555-0330,"900 Market St, San Francisco, CA 94103, USA",US,APPROVED
+v-clou-0005,CloudServices Pro,,EIN-33-9988776,billing@cloudservicespro.io,+1-737-555-0411,"500 Cloud Ave, Austin, TX 78701, USA",US,APPROVED
+v-mega-0006,MegaSupplier Corp,27BBBBB1111B2Z6,,ar@megasupplier.in,+91-22-5555-6666,"Plot 7, MIDC, Andheri East, Mumbai, MH 400093, India",IN,PENDING
+v-qkpt-0007,QuickParts Inc,,EIN-66-5544332,invoices@quickparts.com,+1-313-555-0510,"8800 Industrial Dr, Detroit, MI 48201, USA",US,APPROVED
+v-data-0008,DataSystems LLC,,EIN-44-3322110,finance@datasystems.net,+1-206-555-0620,"1200 Data Center Dr, Seattle, WA 98101, USA",US,APPROVED
+v-medi-0009,MediaCreations,,EIN-11-2233445,billing@mediacreations.co,+1-310-555-0730,"7777 Sunset Blvd, Los Angeles, CA 90046, USA",US,REJECTED
+v-secu-0010,SecureTech Solutions,,EIN-22-1100998,accounts@securetech.com,+1-571-555-0840,"3000 Cyber Lane, Reston, VA 20191, USA",US,SUSPENDED
